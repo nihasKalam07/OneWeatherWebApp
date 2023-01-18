@@ -25,7 +25,7 @@ app.listen(3000, function () {
 
 function sendWeatherData(res, cityName ){
     const query = cityName;
-    const apiKey = "7e89427ad299007d398e6298df36a407";
+    const apiKey = "YOUR ONE WEATHER API KEY";
     const unit = "metric";
 
     const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=" + unit + "&appid=" + apiKey;
